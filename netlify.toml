@@ -1,0 +1,9 @@
+[build]
+  base = "Personal Portfolio Website"
+  command = "npm install && npm run build"
+  publish = "Personal Portfolio Website/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
